@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+========================================================================================
+preferred_network_mode:
+CM_MODE_PREF_GSM_ONLY=13
+CM_MODE_PREF_WCDMA_ONLY=14
+CM_MODE_PREF_GSM_WCDMA_ONLY=19
+CM_MODE_PREF_CDMA_ONLY=9
+CM_MODE_PREF_HDR_ONLY=10
+CM_MODE_PREF_CDMA_HDR_ONLY=22
+
+ecc_type:
+with_uim=1 [default value: 911,112]
+with_uim_but_no_ecc=2 [default value: 911,112]
+with_no_uim=3 [default value: 911,112,000,08,110,999,118,119]
+========================================================================================
+
+========================================================================================
+when         who           what, where, why                               comment tag
+20110120     hejinping     create the file
+========================================================================================
+-->
+
+<customs version="1">
+	<custom_with_no_plmn preferred_network_mode="19">
+		<emergency ecc_type="3" ecc_cat="0" string_length="4" already_in_pbm="false">911</emergency>
+		<emergency ecc_type="3" ecc_cat="0" string_length="4" already_in_pbm="false">112</emergency>
+		<emergency ecc_type="3" ecc_cat="0" string_length="4" already_in_pbm="false">000</emergency>
+		<emergency ecc_type="3" ecc_cat="0" string_length="3" already_in_pbm="false">08</emergency>
+		<emergency ecc_type="3" ecc_cat="0" string_length="4" already_in_pbm="false">110</emergency>
+		<emergency ecc_type="3" ecc_cat="0" string_length="4" already_in_pbm="false">999</emergency>
+		<emergency ecc_type="3" ecc_cat="0" string_length="4" already_in_pbm="false">118</emergency>
+		<emergency ecc_type="3" ecc_cat="0" string_length="4" already_in_pbm="false">119</emergency>
+	</custom_with_no_plmn>
+</customs>

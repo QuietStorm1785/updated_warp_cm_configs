@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<settings version="6">
+    
+    <system key="screen_off_timeout"
+         value="30000"
+    />
+	<system key="screen_brightness"
+         value="153"
+    />
+	<system key="screen_brightness_mode"
+         value="0"
+    />
+</settings>

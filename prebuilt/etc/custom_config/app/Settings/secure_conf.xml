@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<settings version="6">
+    <secure key="location_providers_allowed"
+         value=""
+    />
+</settings>

@@ -1,0 +1,718 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+========================================================================================
+preferred_network_mode:
+CM_MODE_PREF_GSM_ONLY=13
+CM_MODE_PREF_WCDMA_ONLY=14
+CM_MODE_PREF_GSM_WCDMA_ONLY=19
+CM_MODE_PREF_CDMA_ONLY=9
+CM_MODE_PREF_HDR_ONLY=10
+CM_MODE_PREF_CDMA_HDR_ONLY=22
+
+ecc_type:
+with_uim=1 [default value: 911,112]
+with_uim_but_no_ecc=2 [default value: 911,112]
+with_no_uim=3 [default value: 911,112,000,08,110,999,118,119]
+========================================================================================
+
+========================================================================================
+when         who           what, where, why                               comment tag
+20110120     hejinping     create the file
+========================================================================================
+-->
+
+<customs version="1">
+	<custom_with_plmn mcc="460" mnc="18" pbm_short_name="46018" pbm_full_name="46018">
+		
+	</custom_with_plmn>
+	<custom_with_plmn mcc="460" mnc="23" pbm_short_name="46023" pbm_full_name="46023">
+		
+	</custom_with_plmn>
+
+	<custom_with_plmn mcc="202" mnc="10" pbm_short_name="WIND" pbm_full_name="WIND">
+		
+	</custom_with_plmn>
+	<custom_with_plmn mcc="206" mnc="20" pbm_short_name="BASE" pbm_full_name="BASE">
+		
+	</custom_with_plmn>
+	<custom_with_plmn mcc="208" mnc="01" pbm_short_name="Orange F" pbm_full_name="Orange F">
+		
+	</custom_with_plmn>
+	<custom_with_plmn mcc="208" mnc="02" pbm_short_name="Orange" pbm_full_name="Contact">
+		
+	</custom_with_plmn>
+	<custom_with_plmn mcc="208" mnc="10" pbm_short_name="SFR" pbm_full_name="F SFR">
+		
+	</custom_with_plmn>
+	<custom_with_plmn mcc="208" mnc="13" pbm_short_name="Orange" pbm_full_name="F - Contact">
+		
+	</custom_with_plmn>
+	<custom_with_plmn mcc="208" mnc="20" pbm_short_name="Bouygues Telecom" pbm_full_name="Bouygues Telecom">
+		
+	</custom_with_plmn>
+	<custom_with_plmn mcc="208" mnc="88" pbm_short_name="Orange" pbm_full_name="Contact">
+		
+	</custom_with_plmn>
+	<custom_with_plmn mcc="214" mnc="01" pbm_short_name="Vodafone" pbm_full_name="Vodafone">
+		
+	</custom_with_plmn>
+	<custom_with_plmn mcc="214" mnc="02" pbm_short_name="movistar" pbm_full_name="movistar">
+		<emergency ecc_type="1" ecc_cat="0" string_length="4" already_in_pbm="false">911</emergency>
+		<emergency ecc_type="1" ecc_cat="0" string_length="4" already_in_pbm="false">112</emergency>
+		<emergency ecc_type="2" ecc_cat="0" string_length="4" already_in_pbm="false">911</emergency>
+		<emergency ecc_type="2" ecc_cat="0" string_length="4" already_in_pbm="false">112</emergency>
+	</custom_with_plmn>
+	<custom_with_plmn mcc="214" mnc="03" pbm_short_name="Orange" pbm_full_name="Orange">
+	
+	</custom_with_plmn>
+	<custom_with_plmn mcc="214" mnc="04" pbm_short_name="Yoigo" pbm_full_name="Yoigo">
+	
+	</custom_with_plmn>
+	<custom_with_plmn mcc="214" mnc="05" pbm_short_name="movistar" pbm_full_name="movistar">
+	
+	</custom_with_plmn>
+	<custom_with_plmn mcc="214" mnc="06" pbm_short_name="Vodafone" pbm_full_name="Vodafone">
+	
+	</custom_with_plmn>
+	<custom_with_plmn mcc="214" mnc="07" pbm_short_name="movistar" pbm_full_name="movistar">
+		<emergency ecc_type="1" ecc_cat="0" string_length="4" already_in_pbm="false">911</emergency>
+		<emergency ecc_type="1" ecc_cat="0" string_length="4" already_in_pbm="false">112</emergency>
+		<emergency ecc_type="2" ecc_cat="0" string_length="4" already_in_pbm="false">911</emergency>
+		<emergency ecc_type="2" ecc_cat="0" string_length="4" already_in_pbm="false">112</emergency>
+	</custom_with_plmn>
+	<custom_with_plmn mcc="214" mnc="09" pbm_short_name="Orange" pbm_full_name="Orange">
+	
+	</custom_with_plmn>
+	<custom_with_plmn mcc="216" mnc="01" pbm_short_name="Telenor" pbm_full_name="Telenor">
+	
+	</custom_with_plmn>
+	<custom_with_plmn mcc="216" mnc="30" pbm_short_name="T-Mobile H" pbm_full_name="T-Mobile H">
+	
+	</custom_with_plmn>
+	<custom_with_plmn mcc="222" mnc="01" pbm_short_name="TIM" pbm_full_name="TIM">
+	
+	</custom_with_plmn>
+	<custom_with_plmn mcc="226" mnc="10" pbm_short_name="RO ORANGE" pbm_full_name="RO ORANGE">
+	
+	</custom_with_plmn>
+	<custom_with_plmn mcc="228" mnc="03" pbm_short_name="Orange" pbm_full_name="ORANGE">
+	
+	</custom_with_plmn>
+	<custom_with_plmn mcc="231" mnc="01" pbm_short_name="Orange" pbm_full_name="Orange">
+	
+	</custom_with_plmn>
+	<custom_with_plmn mcc="232" mnc="05" pbm_short_name="Orange" pbm_full_name="Orange A">
+	
+	</custom_with_plmn>
+	<custom_with_plmn mcc="232" mnc="12" pbm_short_name="Orange" pbm_full_name="Orange A">
+	
+	</custom_with_plmn>
+	<custom_with_plmn mcc="234" mnc="00" pbm_short_name="BT" pbm_full_name="British Telecom">
+	
+	</custom_with_plmn>
+	<custom_with_plmn mcc="234" mnc="01" pbm_short_name="UK01" pbm_full_name="Mapesbury Communications">
+	
+	</custom_with_plmn>
+	<custom_with_plmn mcc="234" mnc="02" pbm_short_name="O2" pbm_full_name="O2-UK">
+	
+	</custom_with_plmn>
+	<custom_with_plmn mcc="234" mnc="03" pbm_short_name="Jersey Telenet" pbm_full_name="Jersey Telenet">
+	
+	</custom_with_plmn>
+	<custom_with_plmn mcc="234" mnc="10" pbm_short_name="O2" pbm_full_name="O2-UK">
+	
+	</custom_with_plmn>
+	<custom_with_plmn mcc="234" mnc="11" pbm_short_name="O2" pbm_full_name="O2-UK">
+	
+	</custom_with_plmn>
+	<custom_with_plmn mcc="234" mnc="12" pbm_short_name="Railtrack" pbm_full_name="Network Rail Infrastructure">
+	
+	</custom_with_plmn>
+	<custom_with_plmn mcc="234" mnc="15" pbm_short_name="Vodafone" pbm_full_name="Vodafone UK">
+	
+	</custom_with_plmn>
+	<custom_with_plmn mcc="234" mnc="16" pbm_short_name="Opal Telecom" pbm_full_name="Opal Telecom">
+	
+	</custom_with_plmn>
+	<custom_with_plmn mcc="234" mnc="18" pbm_short_name="Cloud9" pbm_full_name="Wire9 Telecom plc">
+	
+	</custom_with_plmn>
+	<custom_with_plmn mcc="234" mnc="19" pbm_short_name="Telaware" pbm_full_name="Telaware plc">
+	
+	</custom_with_plmn>
+	<custom_with_plmn mcc="234" mnc="20" pbm_short_name="3 UK" pbm_full_name="3 UK">
+	
+	</custom_with_plmn>
+	<custom_with_plmn mcc="234" mnc="30" pbm_short_name="T-Mobile UK" pbm_full_name="T-Mobile UK">
+	
+	</custom_with_plmn>
+	<custom_with_plmn mcc="234" mnc="31" pbm_short_name="Virgin" pbm_full_name="Virgin Mobile">
+	
+	</custom_with_plmn>
+	<custom_with_plmn mcc="234" mnc="32" pbm_short_name="Virgin" pbm_full_name="Virgin Mobile">
+	
+	</custom_with_plmn>
+	<custom_with_plmn mcc="234" mnc="33" pbm_short_name="Orange" pbm_full_name="Orange">
+	
+	</custom_with_plmn>
+	<custom_with_plmn mcc="234" mnc="34" pbm_short_name="Orange" pbm_full_name="Orange">
+	
+	</custom_with_plmn>
+	<custom_with_plmn mcc="238" mnc="20" pbm_short_name="TELIA" pbm_full_name="TELIA DK">
+		<emergency ecc_type="1" ecc_cat="0" string_length="4" already_in_pbm="false">911</emergency>
+		<emergency ecc_type="1" ecc_cat="0" string_length="4" already_in_pbm="false">112</emergency>
+		<emergency ecc_type="1" ecc_cat="0" string_length="4" already_in_pbm="false">110</emergency>
+		<emergency ecc_type="2" ecc_cat="0" string_length="4" already_in_pbm="false">911</emergency>
+		<emergency ecc_type="2" ecc_cat="0" string_length="4" already_in_pbm="false">112</emergency>
+		<emergency ecc_type="2" ecc_cat="0" string_length="4" already_in_pbm="false">110</emergency>
+	</custom_with_plmn>
+	<custom_with_plmn mcc="240" mnc="01" pbm_short_name="Telia" pbm_full_name="Telia">
+		<emergency ecc_type="1" ecc_cat="0" string_length="4" already_in_pbm="false">911</emergency>
+		<emergency ecc_type="1" ecc_cat="0" string_length="4" already_in_pbm="false">112</emergency>
+		<emergency ecc_type="1" ecc_cat="0" string_length="4" already_in_pbm="false">110</emergency>
+		<emergency ecc_type="2" ecc_cat="0" string_length="4" already_in_pbm="false">911</emergency>
+		<emergency ecc_type="2" ecc_cat="0" string_length="4" already_in_pbm="false">112</emergency>
+		<emergency ecc_type="2" ecc_cat="0" string_length="4" already_in_pbm="false">110</emergency>
+	</custom_with_plmn>
+	<custom_with_plmn mcc="240" mnc="05" pbm_short_name="Comviq" pbm_full_name="Comviq">
+	
+	</custom_with_plmn>
+	<custom_with_plmn mcc="240" mnc="07" pbm_short_name="Comviq" pbm_full_name="Comviq">
+	
+	</custom_with_plmn>
+	<custom_with_plmn mcc="242" mnc="02" pbm_short_name="NetCom" pbm_full_name="N NetCom">
+		<emergency ecc_type="1" ecc_cat="0" string_length="4" already_in_pbm="false">911</emergency>
+		<emergency ecc_type="1" ecc_cat="0" string_length="4" already_in_pbm="false">112</emergency>
+		<emergency ecc_type="1" ecc_cat="0" string_length="4" already_in_pbm="false">110</emergency>
+		<emergency ecc_type="2" ecc_cat="0" string_length="4" already_in_pbm="false">911</emergency>
+		<emergency ecc_type="2" ecc_cat="0" string_length="4" already_in_pbm="false">112</emergency>
+		<emergency ecc_type="2" ecc_cat="0" string_length="4" already_in_pbm="false">110</emergency>
+	</custom_with_plmn>
+	<custom_with_plmn mcc="244" mnc="05" pbm_short_name="Elisa" pbm_full_name="Elisa">
+	
+	</custom_with_plmn>
+	<custom_with_plmn mcc="244" mnc="91" pbm_short_name="Sonera" pbm_full_name="Sonera">
+		<emergency ecc_type="1" ecc_cat="0" string_length="4" already_in_pbm="false">911</emergency>
+		<emergency ecc_type="1" ecc_cat="0" string_length="4" already_in_pbm="false">112</emergency>
+		<emergency ecc_type="1" ecc_cat="0" string_length="4" already_in_pbm="false">110</emergency>
+		<emergency ecc_type="2" ecc_cat="0" string_length="4" already_in_pbm="false">911</emergency>
+		<emergency ecc_type="2" ecc_cat="0" string_length="4" already_in_pbm="false">112</emergency>
+		<emergency ecc_type="2" ecc_cat="0" string_length="4" already_in_pbm="false">110</emergency>
+	</custom_with_plmn>
+	<custom_with_plmn mcc="246" mnc="01" pbm_short_name="OMT" pbm_full_name="OMNITEL LT">
+		<emergency ecc_type="1" ecc_cat="0" string_length="4" already_in_pbm="false">911</emergency>
+		<emergency ecc_type="1" ecc_cat="0" string_length="4" already_in_pbm="false">112</emergency>
+		<emergency ecc_type="1" ecc_cat="0" string_length="4" already_in_pbm="false">110</emergency>
+		<emergency ecc_type="2" ecc_cat="0" string_length="4" already_in_pbm="false">911</emergency>
+		<emergency ecc_type="2" ecc_cat="0" string_length="4" already_in_pbm="false">112</emergency>
+		<emergency ecc_type="2" ecc_cat="0" string_length="4" already_in_pbm="false">110</emergency>
+	</custom_with_plmn>
+	<custom_with_plmn mcc="247" mnc="01" pbm_short_name="LMT" pbm_full_name="LV LMT">
+		<emergency ecc_type="1" ecc_cat="0" string_length="4" already_in_pbm="false">911</emergency>
+		<emergency ecc_type="1" ecc_cat="0" string_length="4" already_in_pbm="false">112</emergency>
+		<emergency ecc_type="1" ecc_cat="0" string_length="4" already_in_pbm="false">110</emergency>
+		<emergency ecc_type="2" ecc_cat="0" string_length="4" already_in_pbm="false">911</emergency>
+		<emergency ecc_type="2" ecc_cat="0" string_length="4" already_in_pbm="false">112</emergency>
+		<emergency ecc_type="2" ecc_cat="0" string_length="4" already_in_pbm="false">110</emergency>
+	</custom_with_plmn>
+	<custom_with_plmn mcc="248" mnc="01" pbm_short_name="EMT" pbm_full_name="EE EMT">
+		<emergency ecc_type="1" ecc_cat="0" string_length="4" already_in_pbm="false">911</emergency>
+		<emergency ecc_type="1" ecc_cat="0" string_length="4" already_in_pbm="false">112</emergency>
+		<emergency ecc_type="1" ecc_cat="0" string_length="4" already_in_pbm="false">110</emergency>
+		<emergency ecc_type="2" ecc_cat="0" string_length="4" already_in_pbm="false">911</emergency>
+		<emergency ecc_type="2" ecc_cat="0" string_length="4" already_in_pbm="false">112</emergency>
+		<emergency ecc_type="2" ecc_cat="0" string_length="4" already_in_pbm="false">110</emergency>
+	</custom_with_plmn>
+	<custom_with_plmn mcc="250" mnc="01" pbm_short_name="MTS" pbm_full_name="MTS RUS">
+	
+	</custom_with_plmn>
+	<custom_with_plmn mcc="260" mnc="03" pbm_short_name="Orange" pbm_full_name="Orange">
+		<emergency ecc_type="1" ecc_cat="0" string_length="4" already_in_pbm="false">911</emergency>
+		<emergency ecc_type="1" ecc_cat="0" string_length="4" already_in_pbm="false">112</emergency>
+		<emergency ecc_type="2" ecc_cat="0" string_length="4" already_in_pbm="false">911</emergency>
+		<emergency ecc_type="2" ecc_cat="0" string_length="4" already_in_pbm="false">112</emergency>
+	</custom_with_plmn>
+	<custom_with_plmn mcc="260" mnc="06" pbm_short_name="Play" pbm_full_name="POL">
+		<emergency ecc_type="1" ecc_cat="0" string_length="4" already_in_pbm="false">911</emergency>
+		<emergency ecc_type="1" ecc_cat="0" string_length="4" already_in_pbm="false">112</emergency>
+		<emergency ecc_type="2" ecc_cat="0" string_length="4" already_in_pbm="false">911</emergency>
+		<emergency ecc_type="2" ecc_cat="0" string_length="4" already_in_pbm="false">112</emergency>
+	</custom_with_plmn>
+	<custom_with_plmn mcc="268" mnc="01" pbm_short_name="Vodafone" pbm_full_name="vodafone P">
+	
+	</custom_with_plmn>
+	<custom_with_plmn mcc="268" mnc="03" pbm_short_name="Optimus" pbm_full_name="Optimus">
+	
+	</custom_with_plmn>
+	
+	<!-- ZTE_RIL_HJP_20110228 begin  -->
+	<custom_with_plmn mcc="268" mnc="06" pbm_short_name="TMN" pbm_full_name="TMN">
+		<emergency ecc_type="1" ecc_cat="0" string_length="4" already_in_pbm="false">911</emergency>
+		<emergency ecc_type="1" ecc_cat="0" string_length="4" already_in_pbm="false">112</emergency>
+		<emergency ecc_type="2" ecc_cat="0" string_length="4" already_in_pbm="false">911</emergency>
+		<emergency ecc_type="2" ecc_cat="0" string_length="4" already_in_pbm="false">112</emergency>
+	</custom_with_plmn>
+	<!-- ZTE_RIL_HJP_20110228 end  -->
+	
+	<custom_with_plmn mcc="284" mnc="05" pbm_short_name="BG GLOBUL" pbm_full_name="BG GLOBUL">
+	
+	</custom_with_plmn>
+	<custom_with_plmn mcc="294" mnc="03" pbm_short_name="Vip MK" pbm_full_name="Vip MK">
+	
+	</custom_with_plmn>
+	<custom_with_plmn mcc="297" mnc="01" pbm_short_name="ProMonte" pbm_full_name="ProMonte GSM">
+		<emergency ecc_type="1" ecc_cat="0" string_length="4" already_in_pbm="false">911</emergency>
+		<emergency ecc_type="1" ecc_cat="0" string_length="4" already_in_pbm="false">112</emergency>
+		<emergency ecc_type="1" ecc_cat="0" string_length="4" already_in_pbm="false">000</emergency>
+		<emergency ecc_type="2" ecc_cat="0" string_length="4" already_in_pbm="false">911</emergency>
+		<emergency ecc_type="2" ecc_cat="0" string_length="4" already_in_pbm="false">112</emergency>
+		<emergency ecc_type="2" ecc_cat="0" string_length="4" already_in_pbm="false">000</emergency>
+	</custom_with_plmn>
+	<custom_with_plmn mcc="334" mnc="03" pbm_short_name="movistar" pbm_full_name="movistar">
+		<emergency ecc_type="1" ecc_cat="0" string_length="4" already_in_pbm="false">911</emergency>
+		<emergency ecc_type="1" ecc_cat="0" string_length="4" already_in_pbm="false">112</emergency>
+		<emergency ecc_type="2" ecc_cat="0" string_length="4" already_in_pbm="false">911</emergency>
+		<emergency ecc_type="2" ecc_cat="0" string_length="4" already_in_pbm="false">112</emergency>
+	</custom_with_plmn>
+	<custom_with_plmn mcc="334" mnc="20" pbm_short_name="TELCEL" pbm_full_name="TELCEL GSM">
+		<emergency ecc_type="1" ecc_cat="0" string_length="4" already_in_pbm="false">133</emergency>
+		<emergency ecc_type="1" ecc_cat="0" string_length="4" already_in_pbm="false">911</emergency>
+		<emergency ecc_type="1" ecc_cat="0" string_length="4" already_in_pbm="false">112</emergency>
+		<emergency ecc_type="2" ecc_cat="0" string_length="4" already_in_pbm="false">133</emergency>
+		<emergency ecc_type="2" ecc_cat="0" string_length="4" already_in_pbm="false">911</emergency>
+		<emergency ecc_type="2" ecc_cat="0" string_length="4" already_in_pbm="false">112</emergency>
+	</custom_with_plmn>
+	<custom_with_plmn mcc="338" mnc="70" pbm_short_name="Claro JAM" pbm_full_name="Claro JAM">
+	
+	</custom_with_plmn>
+	<custom_with_plmn mcc="340" mnc="01" pbm_short_name="Orange" pbm_full_name="Orange">
+	
+	</custom_with_plmn>
+	<custom_with_plmn mcc="370" mnc="01" pbm_short_name="Orange" pbm_full_name="orange">
+	
+	</custom_with_plmn>
+	<custom_with_plmn mcc="370" mnc="02" pbm_short_name="ClaroDOM" pbm_full_name="Claro DOM">
+	
+	</custom_with_plmn>
+	<custom_with_plmn mcc="404" mnc="31" pbm_short_name="AirTel" pbm_full_name="AirTel">
+		<emergency ecc_type="1" ecc_cat="1" string_length="4" already_in_pbm="false">112</emergency>
+		<emergency ecc_type="1" ecc_cat="1" string_length="4" already_in_pbm="false">100</emergency>
+		<emergency ecc_type="1" ecc_cat="4" string_length="4" already_in_pbm="false">101</emergency>
+		<emergency ecc_type="1" ecc_cat="2" string_length="4" already_in_pbm="false">102</emergency>
+		<emergency ecc_type="1" ecc_cat="2" string_length="4" already_in_pbm="false">104</emergency>
+		<emergency ecc_type="1" ecc_cat="2" string_length="4" already_in_pbm="false">108</emergency>
+		<emergency ecc_type="1" ecc_cat="0" string_length="4" already_in_pbm="false">103</emergency>
+		<emergency ecc_type="2" ecc_cat="1" string_length="4" already_in_pbm="false">112</emergency>
+		<emergency ecc_type="2" ecc_cat="1" string_length="4" already_in_pbm="false">100</emergency>
+		<emergency ecc_type="2" ecc_cat="4" string_length="4" already_in_pbm="false">101</emergency>
+		<emergency ecc_type="2" ecc_cat="2" string_length="4" already_in_pbm="false">102</emergency>
+		<emergency ecc_type="2" ecc_cat="2" string_length="4" already_in_pbm="false">104</emergency>
+		<emergency ecc_type="2" ecc_cat="2" string_length="4" already_in_pbm="false">108</emergency>
+		<emergency ecc_type="2" ecc_cat="0" string_length="4" already_in_pbm="false">103</emergency>
+	</custom_with_plmn>
+	<custom_with_plmn mcc="416" mnc="77" pbm_short_name="Orange" pbm_full_name="Orange JO">
+	
+	</custom_with_plmn>
+	<custom_with_plmn mcc="440" mnc="04" pbm_short_name="SoftBank" pbm_full_name="SoftBank Mobile Corp">
+		<emergency ecc_type="1" ecc_cat="0" string_length="4" already_in_pbm="false">911</emergency>
+		<emergency ecc_type="1" ecc_cat="0" string_length="4" already_in_pbm="false">112</emergency>
+		<emergency ecc_type="1" ecc_cat="1" string_length="4" already_in_pbm="false">110</emergency>
+		<emergency ecc_type="1" ecc_cat="8" string_length="4" already_in_pbm="false">118</emergency>
+		<emergency ecc_type="1" ecc_cat="6" string_length="4" already_in_pbm="false">119</emergency>
+		<emergency ecc_type="2" ecc_cat="0" string_length="4" already_in_pbm="false">911</emergency>
+		<emergency ecc_type="2" ecc_cat="0" string_length="4" already_in_pbm="false">112</emergency>
+		<emergency ecc_type="2" ecc_cat="1" string_length="4" already_in_pbm="false">110</emergency>
+		<emergency ecc_type="2" ecc_cat="8" string_length="4" already_in_pbm="false">118</emergency>
+		<emergency ecc_type="2" ecc_cat="6" string_length="4" already_in_pbm="false">119</emergency>
+	</custom_with_plmn>
+	<custom_with_plmn mcc="440" mnc="06" pbm_short_name="SoftBank" pbm_full_name="SoftBank Mobile Corp">
+		<emergency ecc_type="1" ecc_cat="0" string_length="4" already_in_pbm="false">911</emergency>
+		<emergency ecc_type="1" ecc_cat="0" string_length="4" already_in_pbm="false">112</emergency>
+		<emergency ecc_type="1" ecc_cat="1" string_length="4" already_in_pbm="false">110</emergency>
+		<emergency ecc_type="1" ecc_cat="8" string_length="4" already_in_pbm="false">118</emergency>
+		<emergency ecc_type="1" ecc_cat="6" string_length="4" already_in_pbm="false">119</emergency>
+		<emergency ecc_type="2" ecc_cat="0" string_length="4" already_in_pbm="false">911</emergency>
+		<emergency ecc_type="2" ecc_cat="0" string_length="4" already_in_pbm="false">112</emergency>
+		<emergency ecc_type="2" ecc_cat="1" string_length="4" already_in_pbm="false">110</emergency>
+		<emergency ecc_type="2" ecc_cat="8" string_length="4" already_in_pbm="false">118</emergency>
+		<emergency ecc_type="2" ecc_cat="6" string_length="4" already_in_pbm="false">119</emergency>
+	</custom_with_plmn>
+	<custom_with_plmn mcc="440" mnc="20" pbm_short_name="SoftBank" pbm_full_name="SoftBank">
+		<emergency ecc_type="1" ecc_cat="0" string_length="4" already_in_pbm="false">911</emergency>
+		<emergency ecc_type="1" ecc_cat="0" string_length="4" already_in_pbm="false">112</emergency>
+		<emergency ecc_type="1" ecc_cat="1" string_length="4" already_in_pbm="false">110</emergency>
+		<emergency ecc_type="1" ecc_cat="8" string_length="4" already_in_pbm="false">118</emergency>
+		<emergency ecc_type="1" ecc_cat="6" string_length="4" already_in_pbm="false">119</emergency>
+		<emergency ecc_type="2" ecc_cat="0" string_length="4" already_in_pbm="false">911</emergency>
+		<emergency ecc_type="2" ecc_cat="0" string_length="4" already_in_pbm="false">112</emergency>
+		<emergency ecc_type="2" ecc_cat="1" string_length="4" already_in_pbm="false">110</emergency>
+		<emergency ecc_type="2" ecc_cat="8" string_length="4" already_in_pbm="false">118</emergency>
+		<emergency ecc_type="2" ecc_cat="6" string_length="4" already_in_pbm="false">119</emergency>
+	</custom_with_plmn>
+	<custom_with_plmn mcc="452" mnc="04" pbm_short_name="VIETTEL" pbm_full_name="Viettel">
+	
+	</custom_with_plmn>
+	<custom_with_plmn mcc="454" mnc="06" pbm_short_name="SMC-Voda" pbm_full_name="SmarToneVodafone">
+		<emergency ecc_type="1" ecc_cat="0" string_length="4" already_in_pbm="false">112</emergency>
+		<emergency ecc_type="1" ecc_cat="0" string_length="4" already_in_pbm="false">999</emergency>
+		<emergency ecc_type="2" ecc_cat="0" string_length="4" already_in_pbm="false">112</emergency>
+		<emergency ecc_type="2" ecc_cat="0" string_length="4" already_in_pbm="false">999</emergency>
+	</custom_with_plmn>
+	<custom_with_plmn mcc="455" mnc="00" pbm_short_name="SmarTone" pbm_full_name="SmarTone Macau">
+		<emergency ecc_type="1" ecc_cat="0" string_length="4" already_in_pbm="false">112</emergency>
+		<emergency ecc_type="1" ecc_cat="0" string_length="4" already_in_pbm="false">999</emergency>
+		<emergency ecc_type="2" ecc_cat="0" string_length="4" already_in_pbm="false">112</emergency>
+		<emergency ecc_type="2" ecc_cat="0" string_length="4" already_in_pbm="false">999</emergency>
+	</custom_with_plmn>
+	<custom_with_plmn mcc="460" mnc="00" pbm_short_name="CMCC" pbm_full_name="CHINA MOBILE">
+		<emergency ecc_type="1" ecc_cat="1" string_length="4" already_in_pbm="false">911</emergency>
+		<emergency ecc_type="1" ecc_cat="4" string_length="4" already_in_pbm="false">112</emergency>
+		<emergency ecc_type="1" ecc_cat="1" string_length="4" already_in_pbm="false">110</emergency>
+		<emergency ecc_type="1" ecc_cat="1" string_length="4" already_in_pbm="false">119</emergency>
+		<emergency ecc_type="1" ecc_cat="1" string_length="4" already_in_pbm="false">120</emergency>
+		<emergency ecc_type="1" ecc_cat="1" string_length="4" already_in_pbm="false">122</emergency>
+		<emergency ecc_type="2" ecc_cat="1" string_length="4" already_in_pbm="false">911</emergency>
+		<emergency ecc_type="2" ecc_cat="4" string_length="4" already_in_pbm="false">112</emergency>
+		<emergency ecc_type="2" ecc_cat="1" string_length="4" already_in_pbm="false">110</emergency>
+		<emergency ecc_type="2" ecc_cat="1" string_length="4" already_in_pbm="false">119</emergency>
+		<emergency ecc_type="2" ecc_cat="1" string_length="4" already_in_pbm="false">120</emergency>
+		<emergency ecc_type="2" ecc_cat="1" string_length="4" already_in_pbm="false">122</emergency>
+	</custom_with_plmn>
+	<custom_with_plmn mcc="460" mnc="02" pbm_short_name="CMCC" pbm_full_name="CHINA MOBILE">
+		<emergency ecc_type="1" ecc_cat="1" string_length="4" already_in_pbm="false">911</emergency>
+		<emergency ecc_type="1" ecc_cat="4" string_length="4" already_in_pbm="false">112</emergency>
+		<emergency ecc_type="1" ecc_cat="1" string_length="4" already_in_pbm="false">110</emergency>
+		<emergency ecc_type="1" ecc_cat="1" string_length="4" already_in_pbm="false">119</emergency>
+		<emergency ecc_type="1" ecc_cat="1" string_length="4" already_in_pbm="false">120</emergency>
+		<emergency ecc_type="1" ecc_cat="1" string_length="4" already_in_pbm="false">122</emergency>
+		<emergency ecc_type="2" ecc_cat="1" string_length="4" already_in_pbm="false">911</emergency>
+		<emergency ecc_type="2" ecc_cat="4" string_length="4" already_in_pbm="false">112</emergency>
+		<emergency ecc_type="2" ecc_cat="1" string_length="4" already_in_pbm="false">110</emergency>
+		<emergency ecc_type="2" ecc_cat="1" string_length="4" already_in_pbm="false">119</emergency>
+		<emergency ecc_type="2" ecc_cat="1" string_length="4" already_in_pbm="false">120</emergency>
+		<emergency ecc_type="2" ecc_cat="1" string_length="4" already_in_pbm="false">122</emergency>
+	</custom_with_plmn>
+	<custom_with_plmn mcc="460" mnc="01" pbm_short_name="UNICOM" pbm_full_name="China Unicom">
+		<emergency ecc_type="1" ecc_cat="1" string_length="4" already_in_pbm="false">911</emergency>
+		<emergency ecc_type="1" ecc_cat="4" string_length="4" already_in_pbm="false">112</emergency>
+		<emergency ecc_type="1" ecc_cat="1" string_length="4" already_in_pbm="false">110</emergency>
+		<emergency ecc_type="1" ecc_cat="1" string_length="4" already_in_pbm="false">119</emergency>
+		<emergency ecc_type="1" ecc_cat="1" string_length="4" already_in_pbm="false">120</emergency>
+		<emergency ecc_type="1" ecc_cat="1" string_length="4" already_in_pbm="false">188</emergency>
+		<emergency ecc_type="1" ecc_cat="1" string_length="4" already_in_pbm="false">186</emergency>
+		<emergency ecc_type="2" ecc_cat="1" string_length="4" already_in_pbm="false">911</emergency>
+		<emergency ecc_type="2" ecc_cat="4" string_length="4" already_in_pbm="false">112</emergency>
+		<emergency ecc_type="2" ecc_cat="1" string_length="4" already_in_pbm="false">110</emergency>
+		<emergency ecc_type="2" ecc_cat="1" string_length="4" already_in_pbm="false">119</emergency>
+		<emergency ecc_type="2" ecc_cat="1" string_length="4" already_in_pbm="false">120</emergency>
+		<emergency ecc_type="2" ecc_cat="1" string_length="4" already_in_pbm="false">188</emergency>
+		<emergency ecc_type="2" ecc_cat="1" string_length="4" already_in_pbm="false">186</emergency>
+	</custom_with_plmn>
+	<custom_with_plmn mcc="460" mnc="03" pbm_short_name="China Telecom" pbm_full_name="China Telecom">
+		<emergency ecc_type="1" ecc_cat="1" string_length="4" already_in_pbm="false">911</emergency>
+		<emergency ecc_type="1" ecc_cat="4" string_length="4" already_in_pbm="false">112</emergency>
+		<emergency ecc_type="1" ecc_cat="1" string_length="4" already_in_pbm="false">110</emergency>
+		<emergency ecc_type="1" ecc_cat="1" string_length="4" already_in_pbm="false">119</emergency>
+		<emergency ecc_type="1" ecc_cat="1" string_length="4" already_in_pbm="false">120</emergency>
+		<emergency ecc_type="1" ecc_cat="1" string_length="4" already_in_pbm="false">122</emergency>
+		<emergency ecc_type="2" ecc_cat="1" string_length="4" already_in_pbm="false">911</emergency>
+		<emergency ecc_type="2" ecc_cat="4" string_length="4" already_in_pbm="false">112</emergency>
+		<emergency ecc_type="2" ecc_cat="1" string_length="4" already_in_pbm="false">110</emergency>
+		<emergency ecc_type="2" ecc_cat="1" string_length="4" already_in_pbm="false">119</emergency>
+		<emergency ecc_type="2" ecc_cat="1" string_length="4" already_in_pbm="false">120</emergency>
+		<emergency ecc_type="2" ecc_cat="1" string_length="4" already_in_pbm="false">122</emergency>
+	</custom_with_plmn>
+	
+	<custom_with_plmn mcc="466" mnc="97" pbm_short_name="TW Mobile" pbm_full_name="TW Mobile">
+		<emergency ecc_type="1" ecc_cat="0" string_length="4" already_in_pbm="false">911</emergency>
+		<emergency ecc_type="1" ecc_cat="0" string_length="4" already_in_pbm="false">112</emergency>
+		<emergency ecc_type="2" ecc_cat="0" string_length="4" already_in_pbm="false">911</emergency>
+		<emergency ecc_type="2" ecc_cat="0" string_length="4" already_in_pbm="false">112</emergency>
+	</custom_with_plmn>
+
+	<custom_with_plmn mcc="505" mnc="01" pbm_short_name="Telstra" pbm_full_name="Telstra Mobile">
+		<emergency ecc_type="1" ecc_cat="0" string_length="4" already_in_pbm="false">911</emergency>
+		<emergency ecc_type="1" ecc_cat="0" string_length="4" already_in_pbm="false">112</emergency>
+		<emergency ecc_type="1" ecc_cat="0" string_length="4" already_in_pbm="false">000</emergency>
+		<emergency ecc_type="2" ecc_cat="0" string_length="4" already_in_pbm="false">911</emergency>
+		<emergency ecc_type="2" ecc_cat="0" string_length="4" already_in_pbm="false">112</emergency>
+		<emergency ecc_type="2" ecc_cat="0" string_length="4" already_in_pbm="false">000</emergency>
+	</custom_with_plmn>
+	<custom_with_plmn mcc="505" mnc="02" pbm_short_name="Optus" pbm_full_name="YES OPTUS">
+	
+	</custom_with_plmn>
+	<custom_with_plmn mcc="505" mnc="03" pbm_short_name="voda AU" pbm_full_name="vodafone AU">
+	
+	</custom_with_plmn>
+	<custom_with_plmn mcc="505" mnc="06" pbm_short_name="3TELSTRA" pbm_full_name="3TELSTRA">
+	
+	</custom_with_plmn>
+	<custom_with_plmn mcc="505" mnc="20" pbm_short_name="" pbm_full_name="">
+		<emergency ecc_type="1" ecc_cat="1" string_length="4" already_in_pbm="false">112</emergency>
+		<emergency ecc_type="1" ecc_cat="1" string_length="4" already_in_pbm="false">100</emergency>
+		<emergency ecc_type="1" ecc_cat="4" string_length="4" already_in_pbm="false">101</emergency>
+		<emergency ecc_type="1" ecc_cat="2" string_length="4" already_in_pbm="false">102</emergency>
+		<emergency ecc_type="1" ecc_cat="2" string_length="4" already_in_pbm="false">104</emergency>
+		<emergency ecc_type="1" ecc_cat="2" string_length="4" already_in_pbm="false">108</emergency>
+		<emergency ecc_type="1" ecc_cat="0" string_length="4" already_in_pbm="false">103</emergency>
+		<emergency ecc_type="2" ecc_cat="1" string_length="4" already_in_pbm="false">112</emergency>
+		<emergency ecc_type="2" ecc_cat="1" string_length="4" already_in_pbm="false">100</emergency>
+		<emergency ecc_type="2" ecc_cat="4" string_length="4" already_in_pbm="false">101</emergency>
+		<emergency ecc_type="2" ecc_cat="2" string_length="4" already_in_pbm="false">102</emergency>
+		<emergency ecc_type="2" ecc_cat="2" string_length="4" already_in_pbm="false">104</emergency>
+		<emergency ecc_type="2" ecc_cat="2" string_length="4" already_in_pbm="false">108</emergency>
+		<emergency ecc_type="2" ecc_cat="0" string_length="4" already_in_pbm="false">103</emergency>
+	</custom_with_plmn>
+	<custom_with_plmn mcc="505" mnc="11" pbm_short_name="" pbm_full_name="">
+		<emergency ecc_type="1" ecc_cat="1" string_length="4" already_in_pbm="false">112</emergency>
+		<emergency ecc_type="1" ecc_cat="1" string_length="4" already_in_pbm="false">100</emergency>
+		<emergency ecc_type="1" ecc_cat="4" string_length="4" already_in_pbm="false">101</emergency>
+		<emergency ecc_type="1" ecc_cat="2" string_length="4" already_in_pbm="false">102</emergency>
+		<emergency ecc_type="1" ecc_cat="2" string_length="4" already_in_pbm="false">104</emergency>
+		<emergency ecc_type="1" ecc_cat="2" string_length="4" already_in_pbm="false">108</emergency>
+		<emergency ecc_type="1" ecc_cat="0" string_length="4" already_in_pbm="false">103</emergency>
+		<emergency ecc_type="2" ecc_cat="1" string_length="4" already_in_pbm="false">112</emergency>
+		<emergency ecc_type="2" ecc_cat="1" string_length="4" already_in_pbm="false">100</emergency>
+		<emergency ecc_type="2" ecc_cat="4" string_length="4" already_in_pbm="false">101</emergency>
+		<emergency ecc_type="2" ecc_cat="2" string_length="4" already_in_pbm="false">102</emergency>
+		<emergency ecc_type="2" ecc_cat="2" string_length="4" already_in_pbm="false">104</emergency>
+		<emergency ecc_type="2" ecc_cat="2" string_length="4" already_in_pbm="false">108</emergency>
+		<emergency ecc_type="2" ecc_cat="0" string_length="4" already_in_pbm="false">103</emergency>
+	</custom_with_plmn>
+	<custom_with_plmn mcc="505" mnc="21" pbm_short_name="" pbm_full_name="">
+		<emergency ecc_type="1" ecc_cat="1" string_length="4" already_in_pbm="false">112</emergency>
+		<emergency ecc_type="1" ecc_cat="1" string_length="4" already_in_pbm="false">100</emergency>
+		<emergency ecc_type="1" ecc_cat="4" string_length="4" already_in_pbm="false">101</emergency>
+		<emergency ecc_type="1" ecc_cat="2" string_length="4" already_in_pbm="false">102</emergency>
+		<emergency ecc_type="1" ecc_cat="2" string_length="4" already_in_pbm="false">104</emergency>
+		<emergency ecc_type="1" ecc_cat="2" string_length="4" already_in_pbm="false">108</emergency>
+		<emergency ecc_type="1" ecc_cat="0" string_length="4" already_in_pbm="false">103</emergency>
+		<emergency ecc_type="2" ecc_cat="1" string_length="4" already_in_pbm="false">112</emergency>
+		<emergency ecc_type="2" ecc_cat="1" string_length="4" already_in_pbm="false">100</emergency>
+		<emergency ecc_type="2" ecc_cat="4" string_length="4" already_in_pbm="false">101</emergency>
+		<emergency ecc_type="2" ecc_cat="2" string_length="4" already_in_pbm="false">102</emergency>
+		<emergency ecc_type="2" ecc_cat="2" string_length="4" already_in_pbm="false">104</emergency>
+		<emergency ecc_type="2" ecc_cat="2" string_length="4" already_in_pbm="false">108</emergency>
+		<emergency ecc_type="2" ecc_cat="0" string_length="4" already_in_pbm="false">103</emergency>
+	</custom_with_plmn>
+	<custom_with_plmn mcc="602" mnc="01" pbm_short_name="MobiNil" pbm_full_name="MobiNil">
+	
+	</custom_with_plmn>
+	<custom_with_plmn mcc="608" mnc="01" pbm_short_name="Orange" pbm_full_name="ALIZE">
+	
+	</custom_with_plmn>
+	<custom_with_plmn mcc="610" mnc="02" pbm_short_name="Orange" pbm_full_name="OML">
+	
+	</custom_with_plmn>
+	<custom_with_plmn mcc="624" mnc="02" pbm_short_name="Orange" pbm_full_name="Orange">
+	
+	</custom_with_plmn>
+	<custom_with_plmn mcc="646" mnc="02" pbm_short_name="Orange" pbm_full_name="OrangeMG">
+	
+	</custom_with_plmn>
+	<custom_with_plmn mcc="647" mnc="00" pbm_short_name="Orange" pbm_full_name="Orange">
+	
+	</custom_with_plmn>
+	<custom_with_plmn mcc="647" mnc="10" pbm_short_name="SFR" pbm_full_name="F SFR">
+	
+	</custom_with_plmn>
+	<custom_with_plmn mcc="652" mnc="02" pbm_short_name="Orange" pbm_full_name="Orange">
+	
+	</custom_with_plmn>
+	<custom_with_plmn mcc="655" mnc="01" pbm_short_name="Vodacom" pbm_full_name="Vodacom">
+	
+	</custom_with_plmn>
+	<custom_with_plmn mcc="704" mnc="01" pbm_short_name="ClaroGTM" pbm_full_name="Claro GTM">
+	
+	</custom_with_plmn>
+	<custom_with_plmn mcc="704" mnc="02" pbm_short_name="COMCEL" pbm_full_name="Comcel_GSM">
+	
+	</custom_with_plmn>
+	<custom_with_plmn mcc="704" mnc="03" pbm_short_name="movistar" pbm_full_name="movistar">
+		<emergency ecc_type="1" ecc_cat="0" string_length="4" already_in_pbm="false">911</emergency>
+		<emergency ecc_type="1" ecc_cat="0" string_length="4" already_in_pbm="false">112</emergency>
+		<emergency ecc_type="2" ecc_cat="0" string_length="4" already_in_pbm="false">911</emergency>
+		<emergency ecc_type="2" ecc_cat="0" string_length="4" already_in_pbm="false">112</emergency>
+	</custom_with_plmn>
+	<custom_with_plmn mcc="706" mnc="01" pbm_short_name="ClaroSLV" pbm_full_name="Claro SLV">
+	
+	</custom_with_plmn>
+	<custom_with_plmn mcc="706" mnc="04" pbm_short_name="movistar" pbm_full_name="movistar">
+		<emergency ecc_type="1" ecc_cat="0" string_length="4" already_in_pbm="false">911</emergency>
+		<emergency ecc_type="1" ecc_cat="0" string_length="4" already_in_pbm="false">112</emergency>
+		<emergency ecc_type="2" ecc_cat="0" string_length="4" already_in_pbm="false">911</emergency>
+		<emergency ecc_type="2" ecc_cat="0" string_length="4" already_in_pbm="false">112</emergency>
+	</custom_with_plmn>
+	<custom_with_plmn mcc="708" mnc="01" pbm_short_name="Claro HND" pbm_full_name="Claro HND">
+	
+	</custom_with_plmn>
+	<custom_with_plmn mcc="710" mnc="21" pbm_short_name="ClaroNIC" pbm_full_name="Claro NIC">
+	
+	</custom_with_plmn>
+	<custom_with_plmn mcc="710" mnc="30" pbm_short_name="movistar" pbm_full_name="movistar">
+		<emergency ecc_type="1" ecc_cat="0" string_length="4" already_in_pbm="false">911</emergency>
+		<emergency ecc_type="1" ecc_cat="0" string_length="4" already_in_pbm="false">112</emergency>
+		<emergency ecc_type="2" ecc_cat="0" string_length="4" already_in_pbm="false">911</emergency>
+		<emergency ecc_type="2" ecc_cat="0" string_length="4" already_in_pbm="false">112</emergency>
+	</custom_with_plmn>
+	<custom_with_plmn mcc="710" mnc="73" pbm_short_name="ClaroNIC" pbm_full_name="CLARO NIC">
+	
+	</custom_with_plmn>
+	<custom_with_plmn mcc="712" mnc="01" pbm_short_name="Kolbi ICE" pbm_full_name="Instituto Costarricense de Electricidad">
+	
+	</custom_with_plmn>
+	<custom_with_plmn mcc="714" mnc="03" pbm_short_name="CLARO PA" pbm_full_name="CLARO PA">
+	
+	</custom_with_plmn>
+	<custom_with_plmn mcc="714" mnc="20" pbm_short_name="movistar" pbm_full_name="movistar">
+		<emergency ecc_type="1" ecc_cat="0" string_length="4" already_in_pbm="false">911</emergency>
+		<emergency ecc_type="1" ecc_cat="0" string_length="4" already_in_pbm="false">112</emergency>
+		<emergency ecc_type="2" ecc_cat="0" string_length="4" already_in_pbm="false">911</emergency>
+		<emergency ecc_type="2" ecc_cat="0" string_length="4" already_in_pbm="false">112</emergency>
+	</custom_with_plmn>
+	<custom_with_plmn mcc="716" mnc="06" pbm_short_name="MOVISTAR" pbm_full_name="MOVISTAR">
+		<emergency ecc_type="1" ecc_cat="0" string_length="4" already_in_pbm="false">911</emergency>
+		<emergency ecc_type="1" ecc_cat="0" string_length="4" already_in_pbm="false">112</emergency>
+		<emergency ecc_type="2" ecc_cat="0" string_length="4" already_in_pbm="false">911</emergency>
+		<emergency ecc_type="2" ecc_cat="0" string_length="4" already_in_pbm="false">112</emergency>
+	</custom_with_plmn>
+	<custom_with_plmn mcc="716" mnc="10" pbm_short_name="Claro PER" pbm_full_name="Claro PER">
+	
+	</custom_with_plmn>
+	<custom_with_plmn mcc="722" mnc="07" pbm_short_name="movistar" pbm_full_name="movistar">
+		<emergency ecc_type="1" ecc_cat="0" string_length="4" already_in_pbm="false">911</emergency>
+		<emergency ecc_type="1" ecc_cat="0" string_length="4" already_in_pbm="false">112</emergency>
+		<emergency ecc_type="2" ecc_cat="0" string_length="4" already_in_pbm="false">911</emergency>
+		<emergency ecc_type="2" ecc_cat="0" string_length="4" already_in_pbm="false">112</emergency>
+	</custom_with_plmn>
+	<custom_with_plmn mcc="724" mnc="02" pbm_short_name="TIM" pbm_full_name="TIM">
+	
+	</custom_with_plmn>
+	<custom_with_plmn mcc="724" mnc="03" pbm_short_name="TIM" pbm_full_name="TIM">
+	
+	</custom_with_plmn>
+	<custom_with_plmn mcc="724" mnc="04" pbm_short_name="TIM" pbm_full_name="TIM">
+	
+	</custom_with_plmn>
+	<!-- Operator: Brazil Claro, Project: ZTE_P726US_VV
+	<custom_with_plmn mcc="724" mnc="05" pbm_short_name="Claro" pbm_full_name="Claro">
+		<emergency ecc_type="1" ecc_cat="1" string_length="4" already_in_pbm="false">911</emergency>
+		<emergency ecc_type="1" ecc_cat="4" string_length="4" already_in_pbm="false">112</emergency>
+		<emergency ecc_type="1" ecc_cat="1" string_length="4" already_in_pbm="false">190</emergency>	
+	</custom_with_plmn>
+	-->
+	<!-- Operator: Mexico TECTL, Project: ZTE_P726US & ZTE_P726US_AM-->
+	<custom_with_plmn mcc="724" mnc="05" pbm_short_name="Claro" pbm_full_name="Claro">
+		<emergency ecc_type="1" ecc_cat="0" string_length="4" already_in_pbm="false">911</emergency>
+		<emergency ecc_type="1" ecc_cat="0" string_length="4" already_in_pbm="false">112</emergency>
+		<emergency ecc_type="1" ecc_cat="0" string_length="4" already_in_pbm="false">060</emergency>
+		<emergency ecc_type="2" ecc_cat="0" string_length="4" already_in_pbm="false">911</emergency>
+		<emergency ecc_type="2" ecc_cat="0" string_length="4" already_in_pbm="false">112</emergency>
+		<emergency ecc_type="2" ecc_cat="0" string_length="4" already_in_pbm="false">060</emergency>
+	</custom_with_plmn>
+	
+	<custom_with_plmn mcc="724" mnc="06" pbm_short_name="VIVO" pbm_full_name="VIVO">
+		<emergency ecc_type="1" ecc_cat="1" string_length="4" already_in_pbm="false">911</emergency>
+		<emergency ecc_type="1" ecc_cat="4" string_length="4" already_in_pbm="false">112</emergency>
+		<emergency ecc_type="1" ecc_cat="1" string_length="4" already_in_pbm="false">190</emergency>
+		<emergency ecc_type="2" ecc_cat="1" string_length="4" already_in_pbm="false">911</emergency>
+		<emergency ecc_type="2" ecc_cat="4" string_length="4" already_in_pbm="false">112</emergency>
+		<emergency ecc_type="2" ecc_cat="1" string_length="4" already_in_pbm="false">190</emergency>
+	</custom_with_plmn>
+	<custom_with_plmn mcc="724" mnc="07" pbm_short_name="CTBC Celular" pbm_full_name="CTBC Telecom">
+	
+	</custom_with_plmn>
+	<custom_with_plmn mcc="724" mnc="08" pbm_short_name="TIM" pbm_full_name="Telecom Italiz Mobile">
+	
+	</custom_with_plmn>
+	<custom_with_plmn mcc="724" mnc="10" pbm_short_name="VIVO" pbm_full_name="VIVO">
+		<emergency ecc_type="1" ecc_cat="1" string_length="4" already_in_pbm="false">911</emergency>
+		<emergency ecc_type="1" ecc_cat="4" string_length="4" already_in_pbm="false">112</emergency>
+		<emergency ecc_type="1" ecc_cat="1" string_length="4" already_in_pbm="false">190</emergency>
+		<emergency ecc_type="2" ecc_cat="1" string_length="4" already_in_pbm="false">911</emergency>
+		<emergency ecc_type="2" ecc_cat="4" string_length="4" already_in_pbm="false">112</emergency>
+		<emergency ecc_type="2" ecc_cat="1" string_length="4" already_in_pbm="false">190</emergency>
+	</custom_with_plmn>
+	<custom_with_plmn mcc="724" mnc="11" pbm_short_name="VIVO" pbm_full_name="VIVO">
+		<emergency ecc_type="1" ecc_cat="1" string_length="4" already_in_pbm="false">911</emergency>
+		<emergency ecc_type="1" ecc_cat="4" string_length="4" already_in_pbm="false">112</emergency>
+		<emergency ecc_type="1" ecc_cat="1" string_length="4" already_in_pbm="false">190</emergency>
+		<emergency ecc_type="2" ecc_cat="1" string_length="4" already_in_pbm="false">911</emergency>
+		<emergency ecc_type="2" ecc_cat="4" string_length="4" already_in_pbm="false">112</emergency>
+		<emergency ecc_type="2" ecc_cat="1" string_length="4" already_in_pbm="false">190</emergency>
+	</custom_with_plmn>
+	<custom_with_plmn mcc="724" mnc="15" pbm_short_name="SCTL" pbm_full_name="SCTL">
+	
+	</custom_with_plmn>
+	<custom_with_plmn mcc="724" mnc="16" pbm_short_name="BrTCel" pbm_full_name="BrTCel">
+	
+	</custom_with_plmn>
+	<custom_with_plmn mcc="724" mnc="23" pbm_short_name="VIVO" pbm_full_name="VIVO">
+		<emergency ecc_type="1" ecc_cat="1" string_length="4" already_in_pbm="false">911</emergency>
+		<emergency ecc_type="1" ecc_cat="4" string_length="4" already_in_pbm="false">112</emergency>
+		<emergency ecc_type="1" ecc_cat="1" string_length="4" already_in_pbm="false">190</emergency>
+		<emergency ecc_type="2" ecc_cat="1" string_length="4" already_in_pbm="false">911</emergency>
+		<emergency ecc_type="2" ecc_cat="4" string_length="4" already_in_pbm="false">112</emergency>
+		<emergency ecc_type="2" ecc_cat="1" string_length="4" already_in_pbm="false">190</emergency>
+	</custom_with_plmn>
+	<custom_with_plmn mcc="724" mnc="24" pbm_short_name="AMAZONIA" pbm_full_name="AMAZONIA">
+	
+	</custom_with_plmn>
+	<custom_with_plmn mcc="724" mnc="31" pbm_short_name="Oi" pbm_full_name="Oi">
+	
+	</custom_with_plmn>
+	<custom_with_plmn mcc="724" mnc="32" pbm_short_name="CTBC" pbm_full_name="CTBC">
+	
+	</custom_with_plmn>
+	<custom_with_plmn mcc="724" mnc="33" pbm_short_name="CTBC" pbm_full_name="CTBC">
+	
+	</custom_with_plmn>
+	<custom_with_plmn mcc="724" mnc="34" pbm_short_name="CTBC" pbm_full_name="CTBC">
+	
+	</custom_with_plmn>
+	<custom_with_plmn mcc="724" mnc="37" pbm_short_name="aeiou" pbm_full_name="Unicel do Brasil">
+	
+	</custom_with_plmn>
+	<custom_with_plmn mcc="730" mnc="02" pbm_short_name="movistar" pbm_full_name="movistar">
+		<emergency ecc_type="1" ecc_cat="0" string_length="4" already_in_pbm="false">911</emergency>
+		<emergency ecc_type="1" ecc_cat="0" string_length="4" already_in_pbm="false">112</emergency>
+		<emergency ecc_type="2" ecc_cat="0" string_length="4" already_in_pbm="false">911</emergency>
+		<emergency ecc_type="2" ecc_cat="0" string_length="4" already_in_pbm="false">112</emergency>
+	</custom_with_plmn>
+	<custom_with_plmn mcc="730" mnc="03" pbm_short_name="ClaroCHL" pbm_full_name="Claro CHL">
+	
+	</custom_with_plmn>
+	<custom_with_plmn mcc="734" mnc="04" pbm_short_name="movistar" pbm_full_name="movistar">
+		<emergency ecc_type="1" ecc_cat="0" string_length="4" already_in_pbm="false">911</emergency>
+		<emergency ecc_type="1" ecc_cat="0" string_length="4" already_in_pbm="false">112</emergency>
+		<emergency ecc_type="2" ecc_cat="0" string_length="4" already_in_pbm="false">911</emergency>
+		<emergency ecc_type="2" ecc_cat="0" string_length="4" already_in_pbm="false">112</emergency>
+	</custom_with_plmn>
+	<custom_with_plmn mcc="740" mnc="00" pbm_short_name="movistar" pbm_full_name="movistar">
+		<emergency ecc_type="1" ecc_cat="0" string_length="4" already_in_pbm="false">911</emergency>
+		<emergency ecc_type="1" ecc_cat="0" string_length="4" already_in_pbm="false">112</emergency>
+		<emergency ecc_type="2" ecc_cat="0" string_length="4" already_in_pbm="false">911</emergency>
+		<emergency ecc_type="2" ecc_cat="0" string_length="4" already_in_pbm="false">112</emergency>
+	</custom_with_plmn>
+	<custom_with_plmn mcc="740" mnc="01" pbm_short_name="PORTAGSM" pbm_full_name="PORTA GSM">
+		<emergency ecc_type="1" ecc_cat="0" string_length="4" already_in_pbm="false">911</emergency>
+		<emergency ecc_type="1" ecc_cat="0" string_length="4" already_in_pbm="false">112</emergency>
+		<emergency ecc_type="2" ecc_cat="0" string_length="4" already_in_pbm="false">911</emergency>
+		<emergency ecc_type="2" ecc_cat="0" string_length="4" already_in_pbm="false">112</emergency>
+	</custom_with_plmn>
+	<custom_with_plmn mcc="744" mnc="01" pbm_short_name="HPGYSA" pbm_full_name="HOLA PARAGUAY S.A.">
+	
+	</custom_with_plmn>
+	<custom_with_plmn mcc="744" mnc="02" pbm_short_name="CLARO PY" pbm_full_name="CLARO PY">
+	
+	</custom_with_plmn>
+	<custom_with_plmn mcc="748" mnc="07" pbm_short_name="Movistar" pbm_full_name="Movistar">
+		<emergency ecc_type="1" ecc_cat="0" string_length="4" already_in_pbm="false">911</emergency>
+		<emergency ecc_type="1" ecc_cat="0" string_length="4" already_in_pbm="false">112</emergency>
+		<emergency ecc_type="2" ecc_cat="0" string_length="4" already_in_pbm="false">911</emergency>
+		<emergency ecc_type="2" ecc_cat="0" string_length="4" already_in_pbm="false">112</emergency>
+	</custom_with_plmn>
+	<custom_with_plmn mcc="748" mnc="10" pbm_short_name="CLARO UY" pbm_full_name="CLARO URUGUAY">
+	
+	</custom_with_plmn>
+</customs>

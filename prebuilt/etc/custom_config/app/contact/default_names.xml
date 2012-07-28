@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<names>
+    <read_only id="2"
+    />    
+    <name id="Call Balance">
+         <number>225</number>
+		 <website>http://m.boostmobile.com/myaccount</website>
+    </name>
+
+    <name id="Call ReBoost">
+         <number>233</number>
+		 <website>http://m.boostmobile.com/reboost</website>
+    </name> 
+
+	<name id="Care Services">
+         <number>611</number>
+    </name> 
+	
+	<name id="My Account">
+		 <website>http://m.boostmobile.com/myaccount</website>
+    </name>
+</names>

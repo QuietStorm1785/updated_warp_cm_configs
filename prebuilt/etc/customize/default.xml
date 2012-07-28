@@ -1,0 +1,11 @@
+<customization version="1.00">
+	<category name="system">
+		<module name="language">
+			<function>
+				<set name="single">
+					<item name="total_list">en_US;es_US</item>
+				</set>
+			</function>
+		</module>
+	</category>
+</customization>
