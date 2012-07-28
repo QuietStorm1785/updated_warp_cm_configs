@@ -1,0 +1,6 @@
+#!/system/bin/sh
+#
+# iprenew service
+#
+DHCP_PID=`getprop dhcp.wlan0.pid`
+kill -14 $DHCP_PID
